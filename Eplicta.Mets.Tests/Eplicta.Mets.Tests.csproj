@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Resources\a.xml" />
+		<None Remove="Resources\a.xsd" />
+		<None Remove="Resources\mods99042030_linkedDataAdded.xml" />
+		<None Remove="Resources\MODS_enligt_FGS-PUBL_exempel_1.xml" />
+		<None Remove="Resources\MODS_enligt_FGS-PUBL_exempel_2.xml" />
+		<None Remove="Resources\MODS_enligt_FGS-PUBL_exempel_2_xml1_1.xml" />
+		<None Remove="Resources\sample.xml" />
+		<None Remove="Resources\sample.xsd" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\a.xml" />
+		<EmbeddedResource Include="Resources\a.xsd" />
+		<EmbeddedResource Include="Resources\mods99042030_linkedDataAdded.xml" />
+		<EmbeddedResource Include="Resources\MODS_enligt_FGS-PUBL_exempel_1.xml" />
+		<EmbeddedResource Include="Resources\MODS_enligt_FGS-PUBL_exempel_2.xml" />
+		<EmbeddedResource Include="Resources\MODS_enligt_FGS-PUBL_exempel_2_xml1_1.xml" />
+		<EmbeddedResource Include="Resources\sample.xml" />
+		<EmbeddedResource Include="Resources\sample.xsd" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoFixture" Version="4.15.0" />
+		<PackageReference Include="FluentAssertions" Version="5.10.3" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+		<PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.8.3" />
+		<PackageReference Include="Moq" Version="4.16.1" />
+		<PackageReference Include="xunit" Version="2.4.1" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="coverlet.collector" Version="1.3.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Eplicta.Mets\Eplicta.Mets.csproj" />
+	</ItemGroup>
+
+</Project>

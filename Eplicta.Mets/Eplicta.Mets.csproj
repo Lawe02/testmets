@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<Version>1.0.0</Version>
+		<Authors>Daniel Bohlin</Authors>
+		<Company>Eplicta</Company>
+		<Product>Eplicta Mets</Product>
+		<PackageIconUrl>https://eplicta-aggregator.azurewebsites.net/images/eplicta.toolkit.png</PackageIconUrl>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Resources\eARD_Paket_FGS-PUBL_mets.xsd" />
+		<None Remove="Resources\mods-3-0.xsd" />
+		<None Remove="Resources\mods-3-1.xsd" />
+		<None Remove="Resources\mods-3-2.xsd" />
+		<None Remove="Resources\mods-3-3.xsd" />
+		<None Remove="Resources\mods-3-4.xsd" />
+		<None Remove="Resources\mods-3-5.xsd" />
+		<None Remove="Resources\mods-3-6.xsd" />
+		<None Remove="Resources\mods-3-7.xsd" />
+		<None Remove="Resources\MODS_enligt_FGS-PUBL_xml1_0.xsd" />
+		<None Remove="Resources\MODS_enligt_FGS-PUBL_xml1_1.xsd" />
+		<None Remove="Resources\xlink.xsd" />
+		<None Remove="Resources\xml.xsd" />
+		<None Remove="Resources\xmldsig-core-schema.xsd" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\eARD_Paket_FGS-PUBL_mets.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-0.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-1.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-2.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-3.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-4.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-5.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-6.xsd" />
+		<EmbeddedResource Include="Resources\mods-3-7.xsd" />
+		<EmbeddedResource Include="Resources\MODS_enligt_FGS-PUBL_xml1_0.xsd" />
+		<EmbeddedResource Include="Resources\MODS_enligt_FGS-PUBL_xml1_1.xsd" />
+		<EmbeddedResource Include="Resources\xlink.xsd" />
+		<EmbeddedResource Include="Resources\xml.xsd" />
+		<EmbeddedResource Include="Resources\xmldsig-core-schema.xsd" />
+	</ItemGroup>
+
+</Project>

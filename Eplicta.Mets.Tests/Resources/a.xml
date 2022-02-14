@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Envelope version="1">
+  <Deposit>
+    <ClientId>1234567890123</ClientId>
+    <Account>0045678</Account>
+    <Currency>USD</Currency>
+    <Total>5000.00</Total>
+    <SignedDate>2016-02-15</SignedDate>     
+    <Cheques>
+      <Cheque>
+        <Images>
+          <Front>
+            SUkqAAgAAAAPAP4ABAABAAAAAAAAAAABBAABAAAAfQUAAAEBBAABAAAAWgIAAAIBAwABAAAAAQAA
+            AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAA4BAgAhAAAA0AAAABEBBAABAAAAAAIAABIBAwABAAAA
+            AQAAABUBAwABAAAAAQAAABYBBAABAAAAWgIAABcBBAABAAAAvi8AABoBBQABAAAAAAEAABsBBQAB
+            EdF0fRG0R0YRdH2R2XzaI6OxRQAQAQA=
+          </Front>
+          <Back>
+            SUkqAAgAAAAOAP4ABAABAAAAAAAAAAABBAABAAAAgQUAAAEBBAABAAAAVAIAAAIBAwABAAAAAQAA
+            AAMBAwABAAAABAAAAAYBAwABAAAAAAAAABEBBAABAAAAAAEAABIBAwABAAAAAQAAABUBAwABAAAA
+            AQAAABYBBAABAAAAVAIAABcBBAABAAAAcggAABoBBQABAAAAwAAAABsBBQABAAAA0AAAACgBAwAB
+            AAAAAgAAAAAAAAAAAAAAAAAAAAAAyAAAAAEAAAAAAAAAAAAAAMgAAAABAAAAAAAAAAAAAAAAAAAA
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//LZCdO1f7iRrKXTqt//pePx///9lNoL487Ajh
+            jFyzUrtwg+6gg9VmvCIWA42XMwziSUEEw7GoIcSUWZ3Y0oKmGR3LToGVC2LhkK6H4sorQNRUMLjH
+            LTGzlpv3RFCcH4NLB9hvLTmD8tMgOsG+WVaR5AweTcEWMMfaDQxDIx5NwVQx8OMPeGFHLSUlLcSS
+            1JtNV/9/rrffuO+h9bx////kfvABABAA
+          </Back>
+        </Images>
+        <MicrCodeCmc>123456789012345678901234567890</MicrCodeCmc>
+        <Amount>465.22</Amount>
+        <PaymentDate>2016-02-15</PaymentDate>
+        <EmissionDate>2016-02-15</EmissionDate>
+      </Cheque>
+      <Cheque>
+        <Images>
+          <Front>
+            SUkqAAgAAAAPAP4ABAABAAAAAAAAAAABBAABAAAAfQUAAAEBBAABAAAAWgIAAAIBAwABAAAAAQAA
+            AAMBAwABAAAABAAAAAYBAwABAAAAAAAAAA4BAgAhAAAA0AAAABEBBAABAAAAAAIAABIBAwABAAAA
+            AQAAABUBAwABAAAAAQAAABYBBAABAAAAWgIAABcBBAABAAAAvi8AABoBBQABAAAAAAEAABsBBQAB
+            EdF0fRG0R0YRdH2R2XzaI6OxRQAQAQA=
+          </Front>
+          <Back>
+            SUkqAAgAAAAOAP4ABAABAAAAAAAAAAABBAABAAAAgQUAAAEBBAABAAAAVAIAAAIBAwABAAAAAQAA
+            AAMBAwABAAAABAAAAAYBAwABAAAAAAAAABEBBAABAAAAAAEAABIBAwABAAAAAQAAABUBAwABAAAA
+            AQAAABYBBAABAAAAVAIAABcBBAABAAAAcggAABoBBQABAAAAwAAAABsBBQABAAAA0AAAACgBAwAB
+            AAAAAgAAAAAAAAAAAAAAAAAAAAAAyAAAAAEAAAAAAAAAAAAAAMgAAAABAAAAAAAAAAAAAAAAAAAA
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//LZCdO1f7iRrKXTqt//pePx///9lNoL487Ajh
+            jFyzUrtwg+6gg9VmvCIWA42XMwziSUEEw7GoIcSUWZ3Y0oKmGR3LToGVC2LhkK6H4sorQNRUMLjH
+            LTGzlpv3RFCcH4NLB9hvLTmD8tMgOsG+WVaR5AweTcEWMMfaDQxDIx5NwVQx8OMPeGFHLSUlLcSS
+            1JtNV/9/rrffuO+h9bx////kfvABABAA
+          </Back>
+        </Images>
+        <MicrCodeCmc>123456789012345678901234567890</MicrCodeCmc>
+        <Amount>99999999999</Amount>
+        <PaymentDate>2016-02-15</PaymentDate>
+        <EmissionDate>2016-02-15</EmissionDate>
+      </Cheque>
+    </Cheques>
+  </Deposit>   
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>TVO2Gssf5TUdXFYG/PrHDyqYFqs=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>KwQInN03ywa0u0t4HedxgE1fOU7XYLQScKuQ6vdYoIZME5Hm5jpFeX2ORA2U+BO7JNjmFilTW05VntS3k98YCZhNXH9Iw/YEC1nw4JJLzygYbbCftkiY5v5+b494mQPryCtscwTtbziW6QilILSFDGmco2JopRfVe+qfdN/JyB1HXhUfApyNEsw/cJLj6aaz5ivN1sLFgAlikbwCNpF+mRnZY5u7/S8uT8WhEyK32EcatdjzKbP0PwnIlumhOpUMerWeLZ7neuJq6R/IuFgZ1Y5U6ppyuOjhtiHp4glC/uNUS/y7jMzG29thWBkEtSE9AcEt2IZ0HOEZE3kdFXufjA==</SignatureValue>
+  </Signature>
+</Envelope>

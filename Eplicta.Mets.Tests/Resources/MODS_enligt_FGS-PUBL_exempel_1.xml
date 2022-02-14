@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:ns2="http://www.w3.org/1999/xlink" OBJID="UUID:4129e475-4572-415d-a8aa-2424b7fdd16e"
+    TYPE="SIP" PROFILE="http://www.kb.se/namespace/mets/fgs/eARD_Paket_FGS-PUBL.xml">
+    <metsHdr CREATEDATE="2013-04-18T16:57:48.509+02:00">
+        <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+            <name>Sveriges Television AB</name>
+            <note>URI:http://mimer.kb.se/organisations/SE5560334285</note>
+        </agent>
+        <agent ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+            <name>SVT Play</name>
+        </agent>
+        <agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <name>Sveriges Television AB</name>
+            <note>URI:http://mimer.kb.se/organisations/SE5560334285</note>
+        </agent>
+        <altRecordID TYPE="DELIVERYTYPE">DEPOSIT</altRecordID>
+        <altRecordID TYPE="DELIVERYSPECIFICATION">
+            http://www.kb.se/namespace/digark/deliveryspecification/deposit/fgs-publ/v1/ </altRecordID>
+        <altRecordID TYPE="SUBMISSIONAGREEMENT">
+            http://www.kb.se/namespace/digark/submissionagreement/31-KB999-2013 </altRecordID>
+    </metsHdr>
+    <dmdSec ID="ID1">
+        <mdWrap MDTYPE="MODS">
+            <xmlData>
+                <mods:mods xmlns="http://www.w3.org/1999/xlink">
+                    <mods:identifier type="local">K-20130129-100412-254</mods:identifier>
+                    <mods:location>
+                        <mods:url>
+                            http://www.svtplay.se/klipp/991303/christer-bjorkman-i-gomorron-sverige
+                        </mods:url>
+                    </mods:location>
+                    <mods:originInfo>
+                        <mods:dateIssued encoding="w3cdtf">
+                            2013-01-29T10:11:24.000+01:00</mods:dateIssued>
+                    </mods:originInfo>
+                    <mods:accessCondition>gratis</mods:accessCondition>
+                    <mods:titleInfo>
+                        <mods:title>Christer Björkman i Gomorron Sverige</mods:title>
+                    </mods:titleInfo>
+                    <mods:relatedItem type="host">
+                        <mods:identifier type="uri">http://www.svtplay.se</mods:identifier>
+                        <mods:titleInfo>
+                            <mods:title>SVT Play</mods:title>
+                        </mods:titleInfo>
+                    </mods:relatedItem>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <fileSec>
+        <fileGrp>
+            <file ID="ID4d6bdd90-6821-4aa5-a57d-53bdbe4a9cf3"
+                USE="MPEG-4 Media
+        File;PRONOM:fmt/199" MIMETYPE="video/mp4" SIZE="1145856"
+                CREATED="2013-03-19T16:44:44.000+01:00" CHECKSUM="801520fe16da09d1365596dfabb2846b"
+                CHECKSUMTYPE="MD5">
+                <FLocat ns2:type="simple" ns2:href="file:BCK-KSSLIPP11FEBC.dif-akamai352.mp4"
+                    LOCTYPE="URL"/>
+            </file>
+            <file ID="IDccedbfd6-a450-42f8-8c76-f9a6d9d03f98"
+                USE="JPEG File Interchange Format;PRONOM:fmt/43" MIMETYPE="image/jpeg" SIZE="474768"
+                CREATED="2013-03-19T16:44:44.000+01:00" CHECKSUM="a986daf61c71c9e663e9044b8e93ce0f"
+                CHECKSUMTYPE="MD5">
+                <FLocat ns2:type="simple" ns2:href="file:BCK-KSSLIPP11FEBC.dif-thumbnail_0.jpg"
+                    LOCTYPE="URL"/>
+            </file>
+        </fileGrp>
+    </fileSec>
+    <structMap TYPE="physical">
+        <div TYPE="files">
+            <div TYPE="publication">
+                <fptr FILEID="ID4d6bdd90-6821-4aa5-a57d-53bdbe4a9cf3"/>
+                <fptr FILEID="IDccedbfd6-a450-42f8-8c76-f9a6d9d03f98"/>
+            </div>
+        </div>
+    </structMap>
+</mets>

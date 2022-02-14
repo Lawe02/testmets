@@ -1,0 +1,53 @@
+trigger:
+- master
+
+name: 1.0.$(Rev:r)
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: 'Eplicta.Toolkit.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore nuget packages'
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+    feedsToUse: 'select'
+    vstsFeed: '1e7423eb-2859-4a5e-862e-9a80a3cf889d'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build'
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    arguments: '-c Release --no-restore /p:Version=$(Build.BuildNumber)'
+    versioningScheme: 'byBuildNumber'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Test'
+  inputs:
+    command: 'test'
+    projects: '**/*.Tests.csproj'
+    arguments: '--collect "Code coverage" -c Release --no-build'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Pack nuget Eplicta.Mets'
+  inputs:
+    command: 'pack'
+    packagesToPack: 'Eplicta.Mets/Eplicta.Mets.csproj'
+    nobuild: true
+    versioningScheme: 'byBuildNumber'
+
+- task: NuGetCommand@2
+  displayName: 'Push nuget packages to nuget.org'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'Nuget.org'

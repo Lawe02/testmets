@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="19029"
+    LABEL="Finansiärer och utförare inom vården, skolan och omsorgen 2011" TYPE="SIP"
+    PROFILE="http://www.kb.se/namespace/mets/fgs/eARD_Paket_FGS-PUBL.xml"
+    xsi:schemaLocation="http://www.loc.gov/METS/
+    http://www.kb.se/namespace/mets/fgs/eARD_Paket_FGS-PUBL_mets.xsd http://www.loc.gov/mods/v3 http://www.kb.se/namespace/mods/v3/kbse_mods_0_0.xsd"
+    xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3">
+    <mets:metsHdr CREATEDATE="2013-11-15T13:30:07.1855794+01:00" RECORDSTATUS="NEW">
+        <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <mets:name>Statistiska centralbyrån</mets:name>
+            <mets:note>URI:http://mimer.kb.se/organisations/SE2021000837</mets:note>
+        </mets:agent>
+        <mets:agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+            <mets:name>Statistiska centralbyrån</mets:name>
+            <mets:note>URI:http://mimer.kb.se/organisations/SE2021000837</mets:note>
+        </mets:agent>
+        <mets:agent ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+            <mets:name>SCB:s system för e-pliktleveranser till KB</mets:name>
+        </mets:agent>
+        <mets:altRecordID TYPE="DELIVERYTYPE">DEPOSIT</mets:altRecordID>
+        <mets:altRecordID TYPE="DELIVERYSPECIFICATION">
+                http://www.kb.se/namespace/digark/deliveryspecification/deposit/fgs-publ/v1/
+            </mets:altRecordID>
+        <mets:altRecordID TYPE="SUBMISSIONAGREEMENT">
+                http://www.kb.se/namespace/digark/submissionagreement/31-KB569-2013
+            </mets:altRecordID>
+    </mets:metsHdr>
+    <mets:dmdSec ID="dmdSec001">
+        <mets:mdWrap MDTYPE="MODS">
+            <mets:xmlData>
+                <mods:mods>
+                    <mods:identifier type="urn">
+                urn:nbn:se:scb-2013-oe29sm1301_pdf</mods:identifier>
+                    <mods:identifier type="local">OE29SM1301</mods:identifier>
+                    <mods:typeOfResource>text</mods:typeOfResource>
+                    <mods:genre authority="marcgt">book</mods:genre>
+                    <mods:genre authority="marcgt">statistics</mods:genre>
+                    <mods:genre authority="marcgt">government publication</mods:genre>
+                    <mods:language>
+                        <mods:languageTerm authority="iso639-2b" type="code">swe
+                </mods:languageTerm>
+                    </mods:language>
+                    <mods:language objectPart="summary">
+                        <mods:languageTerm authority="iso639-2b" type="code"> eng</mods:languageTerm>
+                    </mods:language>
+
+                    <mods:subject authority="sos">
+                        <mods:topic>Offentlig ekonomi</mods:topic>
+                    </mods:subject>
+                    <mods:subject authority="sos" lang="eng">
+                        <mods:topic>Public finances</mods:topic>
+                    </mods:subject>
+                    <mods:subject>
+                        <mods:temporal encoding="iso8601" point="start">20110101
+                </mods:temporal>
+                        <mods:temporal encoding="iso8601" point="end">20111231
+                </mods:temporal>
+                    </mods:subject>
+                    <mods:subject>
+                        <mods:geographic>Sverige</mods:geographic>
+                    </mods:subject>
+                    <mods:titleInfo>
+                        <mods:title>Finansiärer och utförare inom vården, skolan och omsorgen 2011
+                </mods:title>
+                    </mods:titleInfo>
+                    <mods:titleInfo type="translated" lang="eng">
+                        <mods:title>Financiers and providers within ecucation, health care and
+                    social services 2011
+                </mods:title>
+                    </mods:titleInfo>
+                    <mods:abstract>Det offentliga stod för merparten av finansieringen. Offentlig sektor finansierade merparten av verksamheten inom vård,
+                    skola och omsorg, även den del som utfördes i privat regi. …
+                </mods:abstract>
+                    <mods:relatedItem type="series">
+                        <mods:titleInfo>
+                            <mods:title>Sveriges officiella statistik</mods:title>
+                        </mods:titleInfo>
+                    </mods:relatedItem>
+                    <mods:relatedItem type="series">
+                        <mods:titleInfo>
+                            <mods:title>Statistiska Meddelanden. Serie OE (Online)
+                </mods:title>
+                        </mods:titleInfo>
+                    </mods:relatedItem>
+                    <mods:relatedItem type="series">
+                        <mods:titleInfo>
+                            <mods:title>Finansiärer och utförare inom vård, skola och omsorg.
+                    Serie OE 29 (Online)</mods:title>
+                            <mods:partNumber>2013:1</mods:partNumber>
+                        </mods:titleInfo>
+                        <mods:identifier type="uri">http://libris.kb.se/resource/bib/12015397
+                    </mods:identifier>
+                    </mods:relatedItem>
+                    <mods:relatedItem type="host">
+                        <mods:identifier type="uri">http://www.scb.se</mods:identifier>
+                    </mods:relatedItem>
+                    <mods:relatedItem type="host">
+                        <mods:titleInfo>
+                            <mods:title>Statistisk årsbok för Sverige 2012</mods:title>
+                        </mods:titleInfo>
+                        <mods:part>
+                            <mods:extent unit="page">
+                                <mods:start>217</mods:start>
+                                <mods:end>230</mods:end>
+                            </mods:extent>
+                        </mods:part>
+                        <mods:identifier type="uri">http://libris.kb.se/resource/bib/12526728
+                </mods:identifier>
+                    </mods:relatedItem>
+                    <mods:relatedItem type="otherFormat">
+                        <mods:identifier type="uri">
+                    http://www.scb.se/statistik/OE/OE0112/2011A01/
+                    OE0112_2011A01_SM_OE29SM1301.html
+                </mods:identifier>
+                        <mods:physicalDescription>
+                            <mods:internetMediaType>text/html</mods:internetMediaType>
+                        </mods:physicalDescription>
+                    </mods:relatedItem>
+                    <mods:originInfo>
+                        <mods:publisher>Statistiska centralbyrån</mods:publisher>
+                        <mods:dateIssued encoding="w3cdtf">2013</mods:dateIssued>
+                    </mods:originInfo>
+                    <mods:accessCondition>gratis</mods:accessCondition>
+                    <mods:accessCondition type="use and reproduction">
+                        http://creativecommons.org/licenses/by/3.0 </mods:accessCondition>
+                    <mods:name type="corporate">
+                        <mods:namePart>Sverige</mods:namePart>
+                        <mods:namePart>Statistiska centralbyrån</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="code">pbl
+                </mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:name type="personal">
+                        <mods:namePart>Statistikson, Svea</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="code" authority="marcrelator">aut
+                </mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+
+                    <mods:name type="personal">
+                        <mods:namePart>Statisson, Status</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm authority="marcrelator" type="code">cph
+                </mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                    <mods:note type="thesis">Diss. Lund : Univ., 2011</mods:note>
+                    <mods:physicalDescription>
+                        <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+                    </mods:physicalDescription>
+                    <mods:location>
+                        <mods:url usage="primary">
+                            http://www.scb.se/statistik/OE/OE0112/2011A01/OE0112_2011A01_SM_OE29SM1301.pdf</mods:url>
+                        <mods:physicalLocation>B</mods:physicalLocation>
+                    </mods:location>
+                </mods:mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:dmdSec ID="dmdSec002">
+        <mets:mdWrap MDTYPE="MODS">
+            <mets:xmlData>
+                <mods:relatedItem type="constituent">
+                    <mods:titleInfo>
+                        <mods:title>Magic bar</mods:title>
+                    </mods:titleInfo>
+                    <mods:abstract>Alternativ omslagsbild till rapport OE29SM1301.
+    </mods:abstract>
+                    <mods:accessCondition type="use and reproduction"> Rights status not evaluated. </mods:accessCondition>
+                    <mods:name type="personal">
+                        <mods:namePart>Gustavsson, Kenneth</mods:namePart>
+                        <mods:role>
+                            <mods:roleTerm type="code" authority="marcrelator">pht
+    </mods:roleTerm>
+                        </mods:role>
+                    </mods:name>
+                </mods:relatedItem>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="web">
+            <mets:file ID="ID1" MIMETYPE="application/pdf" SIZE="239927"
+                CREATED="2013-11-13T12:30:32.0796797+01:00"
+                CHECKSUM="aac2e5b83c82996cf998de1a249e832c" CHECKSUMTYPE="MD5"
+                USE="Acrobat PDF 1.6 - Portable Document Format;1.6;PRONOM:fmt/20">
+                <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="file:OE0112_2011A01_SM_OE29SM1301.pdf"/>
+            </mets:file>
+            <mets:file ID="ID2" MIMETYPE="image/jpeg" SIZE="459927"
+                CREATED="2010-11-10T11:30:32.0796797+01:00"
+                CHECKSUM="abc2e5b85c87366cf898de1a250e833d" CHECKSUMTYPE="MD5"
+                USE="JPEG File Interchange Format;PRONOM:fmt/43">
+                <mets:FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="file:alt_cover_OE29SM1301.jpg"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="physical">
+        <mets:div TYPE="files">
+            <mets:div TYPE="publication" DMDID="dmdSec001">
+                <mets:fptr FILEID="ID1"/>
+            </mets:div>
+            <mets:div TYPE="coverpicture" DMDID="dmdSec002">
+                <mets:fptr FILEID="ID2"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
